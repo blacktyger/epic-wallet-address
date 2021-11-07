@@ -2,8 +2,8 @@
 name = "wallet713"
 version = "3.0.0-beta.1"
 authors = ["vault713 devs"]
-description = "A wallet that makes it easy to send, store, and swap Grin."
-keywords = [ "grin", "mimblewimble", "rust", "crypto", "cryptocurrency" ]
+description = "A wallet that makes it easy to send, store, and swap EPIC."
+keywords = [ "epic", "mimblewimble", "rust", "crypto", "cryptocurrency" ]
 license = "Apache-2.0"
 readme = "README.md"
 edition = "2018"
@@ -23,12 +23,12 @@ failure = "0.1"
 futures = "0.1"
 gotham = "0.3.0"
 gotham_derive = "0.3.0"
-grin_api = "3.0.0"
-grin_core = "3.0.0"
-grin_keychain = "3.0.0"
-grin_store = "3.0.0"
-grin_util = "3.0.0"
-hmac = "0.6"
+epic_api = { path = "../clean/epic/api", version = "3.0.0" }
+epic_core = { path = "../clean/epic/core", version = "3.0.0" }
+epic_keychain = { path = "../clean/epic/keychain", version = "3.0.0" }
+epic_store = { path = "../clean/epic/store", version = "3.0.0" }
+epic_util = { path = "../clean/epic/util", version = "3.0.0" }
+hmac = "0.7"
 http = "0.1.5"
 hyper = "0.12"
 hyper-rustls = "0.14"
